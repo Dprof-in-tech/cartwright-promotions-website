@@ -1,0 +1,17 @@
+@media only screen and (max-width: 720px){
+body{
+    background-color: white;
+    align-items: center;
+    color: black;
+}
+img{
+    margin-top: 50%;
+    margin-left: 27%;
+}
+p{
+    font-size: 2rem;
+    font-style: italic;
+    max-width: 30rem;
+    margin-left: 5rem;
+}
+}
