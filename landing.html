@@ -1,27 +1,28 @@
 <!--  
-    // if(isset($_POST['submit'])){
-    //     require "db.php";
-    //     $name = $_POST['name'];
-    //     $email = $_POST['email'];
+     if(isset($_POST['submit'])){
+         require "db.php";
+         $name = $_POST['name'];
+         $email = $_POST['email'];
 
     
-    //     $sql = "INSERT INTO leads(name, email ) VALUES ('$name', '$email')";
+         $sql = "INSERT INTO leads(name, email ) VALUES ('$name', '$email')";
     
-    //     ///perform query
-    //     $result = mysqli_query($con, $sql);
-    //     if($to){
-    //         echo header('location:Thanks.php');
-    //     }
+         ///perform query
+         $result = mysqli_query($con, $sql);
+         if($to){
+             echo header('location:Thanks.php');
+         }
 
-    //     $email_from = 'yourname@cartwrightpps.tk';
-    //     $email_subject = "New Form submission";
-    //     $email_body = "You have received a new message from the user $name.\n".
-    //     "I have Subscribed to your newsletter:\n $email".
-    //     $to = "amaechiisaac450@gmail.com";
-    //     mail($to,$email_subject,$email_body);
+         $email_from = 'yourname@cartwrightpps.tk';
+         $email_subject = "New Form submission";
+         $email_body = "You have received a new message from the user $name.\n".
+         "I have Subscribed to your newsletter:\n $email".
+         $to = "amaechiisaac450@gmail.com";
+         mail($to,$email_subject,$email_body);
 
        
-    // } -->
+     } 
+     -->
 
 
 <!DOCTYPE html>
