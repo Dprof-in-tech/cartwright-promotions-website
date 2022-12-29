@@ -1,7 +1,7 @@
 @media only screen and (max-width: 480px){
     body{
         background: url("./cartwright_background.jpg");
-        background-size: 960px 960px;
+        background-size: 960px 1440px;
         background-repeat: no-repeat;
         align-items: center;
         text-align: center;
