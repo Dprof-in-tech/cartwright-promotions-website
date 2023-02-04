@@ -1,0 +1,234 @@
+@media only screen and (max-width: 991px){
+    body{
+        background: rgb(211, 210, 210);
+        background-size: 720px 1440px;
+        background-repeat: no-repeat;
+        display: flex;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
+    .navbar{
+        background: white;
+        display: flex;
+        margin: 0;
+        z-index: 1;
+        position: fixed;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        height: 3rem;
+    }
+    .n-left{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+    }
+    .search{
+        width: 15rem;
+        height: 2rem;
+        border: thin 1px goldenrod;
+        border-radius: 6px;
+        text-justify: auto;
+    }
+    a{
+        text-decoration: none;
+    }
+    .search::placeholder{
+        padding-left: 1rem;
+        color: gray;
+    }
+   
+    .n-right{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.2rem;
+        align-items: center;
+    }
+
+    .flex-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .book{
+        height: fit-content;
+        width: 150px;
+        background-color: white;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+    .b-right{
+        margin-left: 32%;
+        width: 100%;
+        background: transparent;
+    }
+    .book:hover{
+        cursor: pointer;
+        transform: scale(0.89);
+    }
+   .books{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    } 
+
+    .book>img{
+        padding: 1rem;
+    }
+     section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        left: 5%;
+        gap: 1.2rem;
+    }
+
+    .b-left{
+        background: white;
+        position: fixed;
+        width: 30%;
+        height: 100%;
+        margin-top: 0.7rem;
+    }
+
+    h1{
+        font-family: cursive;
+        color: gray;
+        font-style: oblique;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    h2{
+        font-family: cursive;
+        color: rgb(56, 51, 51);
+        font-style: oblique;
+        font-size: 1rem;
+        margin-top: 0.5rem; 
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+       body{
+        background: rgb(211, 210, 210);
+        background-size: 720px 1440px;
+        background-repeat: no-repeat;
+        display: flex;
+        margin: 0;
+        align-items: center;
+        text-align: center;
+        color: black;
+    }
+    .navbar{
+        background: white;
+        display: flex;
+        margin: 0;
+        z-index: 1;
+        position: fixed;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        height: 3rem;
+    }
+    .n-left{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 1rem;
+    }
+    .search{
+        width: 15rem;
+        height: 2rem;
+        border: thin 1px goldenrod;
+        border-radius: 6px;
+        text-justify: auto;
+    }
+    a{
+        text-decoration: none;
+    }
+    .search::placeholder{
+        padding-left: 1rem;
+        color: gray;
+    }
+   
+    .n-right{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1.2rem;
+        align-items: center;
+    }
+
+    .flex-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .book{
+        height: fit-content;
+        width: 150px;
+        background-color: white;
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+    .b-right{
+        margin-left: 22%;
+        width: 100%;
+        background: transparent;
+    }
+    .book:hover{
+        cursor: pointer;
+        transform: scale(0.89);
+    }
+   .books{
+        position: relative;
+        left: 10%;
+        width: 80%;
+    } 
+
+    .book>img{
+        padding: 1rem;
+    }
+     section{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        left: 5%;
+        gap: 1.2rem;
+    }
+
+    .b-left{
+        background: white;
+        position: fixed;
+        width: 20%;
+        height: 100%;
+        margin-top: 0.7rem;
+    }
+
+    h1{
+        font-family: cursive;
+        color: gray;
+        font-style: oblique;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    h2{
+        font-family: cursive;
+        color: rgb(56, 51, 51);
+        font-style: oblique;
+        font-size: 1rem;
+        margin-top: 0.5rem; 
+    }
+}

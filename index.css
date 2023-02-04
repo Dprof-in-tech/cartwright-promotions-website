@@ -1,7 +1,7 @@
-@media only screen and (max-width: 480px){
+ @media only screen and (max-width: 991px){
     body{
-        background: url("./cartwright_background.jpg");
-        background-size: 1440px 960px;
+        background: url("./img/cartwright_background.jpg");
+        background-size: 1440px 1440px;
         background-repeat: no-repeat;
         align-items: center;
         text-align: center;
@@ -15,13 +15,14 @@
     .n-left{
         display: flex;
         justify-content: space-between;
-        margin-left: -8rem;
+        margin-left: -10rem;
     }
     .n-right{
         margin-right: -5rem;
+        margin-top: -1rem;
     }
     .reveal_logo{
-        margin-top: 25rem;
+        margin-top: 30rem;
         margin-bottom: 0rem;
     }
     h1{
@@ -38,16 +39,35 @@
         max-width: 85%;
         margin-left: 3rem;
     }
+    a{
+        text-decoration: none;
+    }
     h2{
     font-family: cursive;
     font-style: oblique;
     font-size: 2rem;
     color: white;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     }
     h3{
+        
+    display: flex;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 2rem;
+    color: white;
+         
+    }
+    .n-left>:nth-child(2){
         display: none;
     }
+    .n-right>:nth-child(1){
+        display: none;
+    }
+    .n-right>:nth-child(2){
+        display: none;
+    }
+
     .input{
         border: 0.5rem thin gray;
         border-radius: 12px;
@@ -69,10 +89,11 @@
         height: 4rem;
         margin-top: 2rem;
     }
-}
+} 
+
 @media only screen and (min-width: 992px){
-body{
-    background: url("./cartwright_background.jpg");
+ body{
+    background: url("./img/cartwright_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -95,14 +116,14 @@ h3{
 .n-wrapper{
     justify-content: space-evenly;
     display: flex;
-    gap: 4rem;
+    gap: 15rem;
 }
 .n-left{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 0.5rem;
-    margin-left: -3rem;
+    margin-left: -10rem;
     
 }
 .n-right{
@@ -110,12 +131,15 @@ h3{
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
+  position: relative;
+  right: -10%;
 }
 .home{
     display: none;
 }
 a{
     margin-top: 1rem;
+    text-decoration: none;
 }
 .reveal_logo{
    margin-top: 9.5rem;
@@ -125,4 +149,40 @@ a{
     margin-top: 5rem;
     
 }
+p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: 2rem;
+        color: white;
+        max-width: 85%;
+        margin-left: 3rem;
+    }
+    h1{
+        font-family: fantasy;
+        font-style: oblique;
+        font-size: 3.5rem;
+        color: white; 
+    }
+    .input{
+        border: 0.5rem thin gray;
+        border-radius: 12px;
+        background-color: transparent;
+        color: white;
+        font-size: 1.5rem;
+        width: 25rem;
+        height: 4rem;
+        margin-top: 2rem;
+    }
+    .submit{
+        border: none;
+        border-radius: 12px;
+        background-color: rgb(165, 131, 87);
+        color: white;
+        font-size: 1.5rem;
+        text-align: center;
+        width: 12rem;
+        height: 4rem;
+        margin-top: 2rem;
+    } 
+    
 }

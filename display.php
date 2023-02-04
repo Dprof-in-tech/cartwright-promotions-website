@@ -13,7 +13,11 @@
     <title>My Database</title>
 </head>
 <body>
-    <a href="Home.php"><h1 class="btn btn-primary mt-3 ">Register User</h1></a>
+    <a href="register.php"><h1 class="btn btn-primary mt-3 ">Register User</h1></a>
+    <a href="Home.php"><h1 class="btn btn-primary mt-3 ">Create Post</h1></a>
+    <a href="display1.php"><h1 class="btn btn-primary mt-3 ">Users</h1></a>
+    <a href="display2.php"><h1 class="btn btn-primary mt-3 ">Posts</h1></a>
+    <a href="truncate.php? truncate-table=' . $id . '"><button class="btn btn-danger">Truncate</button></a>
     <table class="table">
   <thead>
     <tr>
